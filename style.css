@@ -59,9 +59,10 @@
     margin: 3rem auto;
     margin-top: 40px;
     /* border: 2px solid blue; */
-    height: 90vh;
+    height: 80vh;
     display: flex;
     justify-content: space-around;
+
 
 }
 
@@ -70,6 +71,7 @@
     height: 90vh;
     margin: 3rem 8rem auto;
     gap: 3rem;
+    background: linear-gradient(223.23deg, rgba(140, 87, 238, 0.03) 3.979%, rgba(241, 68, 174, 0.03) 100.54%);
 }
 
 .play-list i {
@@ -122,12 +124,102 @@
     align-items: center;
     justify-content: space-between;
     margin: 18rem 8rem;
-    margin-top:110px;
+    margin-top: 180px;
+}
 
-
-
-
+.gamer-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-top: -40px;
 
 }
 
+.text {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+}
+
+.text h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: #F948B2;
+
+}
+
+.text p {
+    font-size: 1.2rem;
+    color: #534C64;
+    margin-top: 30px;
+}
+
+
+.text h3 {
+    color: #534C64;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.text h2 {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+/* game section end */
+
+/* onnline-game section start */
+  .onnline-game-container{
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid green; */
+
+  }
+  .onnline-game-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .onnline-game-content h1{
+    color: #0B0223;
+    font-size: 2.8rem;
+
+  }
+
+  .onnline-game-content span{
+    color: #8758F1;
+  }
+  .onnline-game-content p{
+    color: #534C64;
+    margin-top: 10px;
+    font-size: 1.2rem;
+
+  }
+  .grid-templates img{
+    width: 290px;
+  }
+  /* .grid-templates{
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(4, 1fr);
+
+  } */
+   .grid-templates p{
+    color: #534C64;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 10px;
+   }
+   .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+   }
+/* onnline-game section end */
 /* main section style end */
